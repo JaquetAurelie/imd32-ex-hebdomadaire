@@ -3,3 +3,20 @@
 @import "layout";
 @import "modules/example";
 @import "modules/button";
+@import "modules/card";
+
+:root {
+  --Primary-900: #000;
+  --Primary-800: #343434;
+  --Primary-600: #6c6f72;
+  --Primary-500: #b4bbc0;
+  --Primary-200: #eceeef;
+  --Primary-100: #bbb;
+  --Primary-50: #f5f5f5;
+  --Primary-0: #fff;
+}
+
+html {
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+}
