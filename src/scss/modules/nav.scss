@@ -1,0 +1,23 @@
+nav ul {
+  display: inline-flex;
+  padding: 4px;
+  border-radius: 48px;
+  background: var(--Primary-900-50, rgba(0, 0, 0, 0.5));
+}
+
+nav li {
+  font-size: 1.25rem;
+  list-style: none;
+  padding: 16px 32px;
+  border-radius: 32px;
+  color: var(--Primary-0);
+}
+
+.nav-element:hover {
+  background: var(--Primary-0-10opacity);
+}
+
+.nav-element:active {
+  background: var(--Primary-0);
+  color: var(--Primary-900);
+}
