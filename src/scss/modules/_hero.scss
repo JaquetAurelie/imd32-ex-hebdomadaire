@@ -1,0 +1,25 @@
+.hero {
+  background-image: url(../img/plane.webp);
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+  padding: 40px;
+}
+
+.hero-container {
+  height: 100%;
+  width: 100%;
+  border-radius: 32px;
+  border: 4px solid var(--Primary-600, #6c6f72);
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.hero-title {
+  color: var(--Primary-0, #fff);
+  font-family: Lobster;
+  font-size: 96px;
+  margin-bottom: 24px;
+}

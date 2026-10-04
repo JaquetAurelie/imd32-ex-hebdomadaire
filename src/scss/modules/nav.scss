@@ -21,3 +21,7 @@ nav li {
   background: var(--Primary-0);
   color: var(--Primary-900);
 }
+
+nav {
+  align-self: flex-end;
+}
